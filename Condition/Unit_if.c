@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main() {
-	float unit ,bill;
+	float unit , bill, total_bill;
 	
 	printf("Please enter Electrictiy Unit:");
 	scanf("%f", &unit);
@@ -16,7 +16,10 @@ int main() {
 		bill = 50 * 0.50 + 100 * 0.70 + 100 * 1.00 + (unit - 250) * 1.20;
 	}
 	
-	printf("Ans is: %f",bill);
+	total_bill = bill + bill * 0.20;
+	
+	printf("Bill is: %f\n",bill);
+	printf("total Bill is: %f",total_bill);
 	
 	return 0;
 }
