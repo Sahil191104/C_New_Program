@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main() {
-	int n, arr[50], i, sum=0, Aver;
+	int n, num, i, sum=0, Aver;
 	
 	printf("Please enter any number: ");
 	scanf("%d", &n);
