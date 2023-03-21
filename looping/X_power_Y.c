@@ -1,15 +1,19 @@
-#include <stdio.h>
- 
-int main(){
- 	int x, y;
- 
- 	printf("Please enter X Number:\n");
-  	scanf("%d", &x);
-  	
-  	printf("Please enter Y Number:\n");
-  	scanf("%d", &y);
- 
- 	
+#include<stdio.h>
+
+int main() {
+	int x, y, p = 1, i;
 	
-  	return 0;
+	printf("PLease enter X value = ");
+	scanf("%d", &x);
+	
+	printf("PLease enter Y value = ");
+	scanf("%d", &y);
+	
+	for (i=1; i<=y; i++) {
+		p = p * x;
+	}
+	
+	printf("Ans is = %d", p);
+
+	return 0;
 }
