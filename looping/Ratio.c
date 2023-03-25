@@ -8,7 +8,7 @@ int main() {
 		scanf("%d %d %d %d", &a, &b, &c, &d);
 		
 		if (c == d) {
-			printf("Ratio ti not Possible");
+			printf("Ratio ti not Possible\n");
 		} else {
 			ans = (a-b)/(c-d);
 			printf("Ans is: %d\n", ans);

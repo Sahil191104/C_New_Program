@@ -1,25 +1,19 @@
 #include<stdio.h>
 
-int main() {
-	int n, rem = 0, res = 0;
+int main (){
 	
-	printf("Please enter any number: ");
+	int n, rem=0, res=0;
+	
+	printf("enter any number:");
 	scanf("%d", &n);
 	
-	for (i=1; i<=1000; i++) {
-		while (i > 0) {
-			rem = i % 10;
-			res = res + (rem * rem * rem);
-			n = i / 10;
-		}
-		if (i == res) {
-			printf("%d is Armstrong", rse);
-		} else {
-		
-		}
+	while (n > 0) {
+		rem = n % 10;
+		res = res + (rem * rem * rem);
+		n = n / 10;
 	}
 	
-	printf("Ans is %d", res);
+	printf("your number is:%d",res);
 	
 	return 0;
 }

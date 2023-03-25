@@ -7,7 +7,7 @@ int main() {
 	scanf("%d", &n);
 	
 	if (n > 1) {
-		if (n == 2) [
+		if (n == 2) {
 			printf("%d is prime number", n);
 		} else {
 			for (i=2; i<n; i++) {

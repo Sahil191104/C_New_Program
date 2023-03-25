@@ -1,22 +1,21 @@
 #include<stdio.h>
 
 int main() {
-	int n, num, i, sum=0, Aver;
 	
-	printf("Please enter any number: ");
-	scanf("%d", &n);
+	int i,n,avg, sum=0;
 	
-	for (i=0; i<n; i++) {
-		scanf("%d", &arr[i]);
+	printf("enter any number:");
+	scanf("%d",&n);
+	
+	for (i=1; i<=n; i++) {
+		sum = sum + i;
+		printf("%d\n",i);
 	}
 	
-	for (i=0; i<n; i++) {
-		sum = sum + arr[i];
-	}
+	printf("your sum is:%d\n",sum);
 	
-	Aver = sum/5;
-	
-	printf("Average: %d", Aver);
+	avg = sum / n;
+	printf("your avg is:%d",avg);
 	
 	return 0;
 }
