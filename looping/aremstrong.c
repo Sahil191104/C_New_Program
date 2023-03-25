@@ -1,19 +1,23 @@
 #include<stdio.h>
 
-int main (){
+int main() {
+	int i, temp, rem = 1, res = 0;
 	
-	int n, rem=0, res=0;
-	
-	printf("enter any number:");
-	scanf("%d", &n);
-	
-	while (n > 0) {
-		rem = n % 10;
-		res = res + (rem * rem * rem);
-		n = n / 10;
+	for (i=1; i<=1000; i++) {
+		temp = i;
+		
+		while (temp > 0) {
+			rem = temp % 10;
+			res = res + (rem * rem * rem);
+			temp = temp / 10;
+		}
+		
+		if (res == i) {
+			printf("%d is Aremstrong\n", i);
+		}
+		
+		res = 0;
 	}
-	
-	printf("your number is:%d",res);
 	
 	return 0;
 }
