@@ -13,8 +13,8 @@ int main() {
 	
 	for (i=0; i<n; i++) {
 		if (arr[i] > max) {
-            max = arr[i];
-        }
+           		max = arr[i];
+        	}
 	}
 	
 	printf("Maximum Number is: %d", max);
