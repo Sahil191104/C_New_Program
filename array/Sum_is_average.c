@@ -1,7 +1,8 @@
 #include<stdio.h>
 
 int main() {
-	int arr[100], n, i, max = 0;
+	int arr[100], n, i;
+	float average, sum = 0;
 	
 	printf("Please enter size of an Array: ");
 	scanf("%d", &n);
@@ -12,12 +13,11 @@ int main() {
 	}
 	
 	for (i=0; i<n; i++) {
-		if (arr[i] > max) {
-           		max = arr[i];
-        }
+        sum = sum + arr[i];
+        average = sum/n;
 	}
 	
-	printf("Maximum Number is: %d", max);
+	printf("Sum of Average Number is: %.2f", average);
 	
 	return 0;
 }

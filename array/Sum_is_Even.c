@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main() {
-	int arr[100], n, i, max = 0;
+	int arr[100], n, i, sum = 0;
 	
 	printf("Please enter size of an Array: ");
 	scanf("%d", &n);
@@ -12,12 +12,12 @@ int main() {
 	}
 	
 	for (i=0; i<n; i++) {
-		if (arr[i] > max) {
-           		max = arr[i];
+		if (arr[i] %2 == 0) {
+           	sum = sum + arr[i];
         }
 	}
 	
-	printf("Maximum Number is: %d", max);
+	printf("Sum of Even Number is: %d", sum);
 	
 	return 0;
 }
