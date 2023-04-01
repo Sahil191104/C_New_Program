@@ -1,7 +1,6 @@
 #include<stdio.h>
 
 int main() {
-	
 	int i,n,avg, sum=0;
 	
 	printf("enter any number:");

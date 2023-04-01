@@ -8,7 +8,7 @@ float areaofrectangle() {
 	
 	area = l * h;
 	
-	return area;	
+	return area;
 }
 int main() {
 	float res, res1;
