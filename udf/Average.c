@@ -7,8 +7,8 @@ float Average(float n) {
 		printf("Please enter any Value:");
 		scanf("%f", &value);
 		
-        sum = sum + value;
-        avg = sum / 4;
+        	sum = sum + value;
+        	avg = sum / 4;
 	}
 	
 	printf("your avg is:%f",avg);

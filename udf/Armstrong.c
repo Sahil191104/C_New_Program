@@ -1,9 +1,9 @@
 #include<stdio.h>
 
-int armstrong() {
+int armstrong(int n) {
 	int i, temp, rem = 1, res = 0;
 	
-	for (i=1; i<=1000; i++) {
+	for (i=1; i<=n; i++) {
 		temp = i;
 		
 		while (temp > 0) {
@@ -28,7 +28,7 @@ int main() {
 	printf("Please enter any number:");
 	scanf("%d", &n);
 	
-	ans = armstrong();
+	ans = armstrong(n);
 	
 	return 0;
 }
