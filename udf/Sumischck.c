@@ -26,6 +26,5 @@ int main() {
 	
 	ans = sumischeck(arr, n);
 	
-	
 	return 0;
 }
