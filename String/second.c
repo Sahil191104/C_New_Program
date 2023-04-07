@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<string.h>
 
 int main() {
 	int n;
@@ -8,23 +7,23 @@ int main() {
 	printf("Please enter any number;0");
 	gets(str);
 	
-// 	printf("Please enter any number;1");
-// 	gets(str1);
-		
-// 	n = strlen(str);
-// 	printf("%d", n);
+	// printf("Please enter any number;1");
+	// gets(str1);
+	
+	// n = strlen(str);
+	// printf("%d", n);
 
-    // strcpy(str1, str);
-    // puts(str);
+	// strcpy(str1, str);
+	// puts(str);
     
-    // strcat(str, str1);
-    // puts(str);
+	// strcat(str, str1);
+	// puts(str);
     
-    // if (strcmp(str, str1) == 0) {
-    //     printf("Both is same");
-    // } else {
-    //     printf("Both is Not same");
-    // }
+	// if (strcmp(str, str1) == 0) {
+	//     printf("Both is same");
+	// } else {
+	//     printf("Both is Not same");
+	// }
 	
 	strrev(str);
 	puts(str);

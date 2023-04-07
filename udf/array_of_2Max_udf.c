@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int 2max(int n, int arr[], int i) {
+int secondmax(int n, int arr[], int i) {
 	int m1 = 0, m2 = 0;
 	
 	for (i=0; i<n; i++) {
@@ -28,7 +28,7 @@ int main () {
 		scanf("%d", &arr[i]);
 	}
 	
-	ans = 2max(n, arr, i);
+	ans = secondmax(n, arr, i);
 	
 	return 0;
 }
